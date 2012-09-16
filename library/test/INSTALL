@@ -1,0 +1,56 @@
+About
+#####
+Name: "python-lxml"
+Ver: "2.3-1"
+Arch: "x86" "x86_64"
+Author: "Nicolas Tesla" "Steven Murphy"
+Website: "http://lxml.de"
+Description: "Python binding for the libxml2 and libxslt libraries"
+License: "BSD" "MIT"
+Packager: "Smith Williams <swilliams@server>"
+
+Conflicts
+#########
+    - python-lxml-bad >= 2.1.0
+    
+for "Debian" ver >= "6.0":
+    - python-lxml-very-bad
+
+Dependencies
+############
+    - python
+    - libxslt
+
+Install
+#######
+Alert
+=====
+Un mensaje de aviso
+
+1. Pre-install
+==============
+for "Archlinux" run in "shell":
+    $ cd ...
+    $ rm ...
+    $ <more commands>
+
+2. Build
+========
+    $ cd ...
+    $ cmake ...
+    
+3. Package
+==========
+    # make ...
+    # install ...
+    
+4. Post-install
+===============
+    ...
+    
+Upgrade
+#######
+...
+
+Remove
+######
